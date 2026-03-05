@@ -1,0 +1,250 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.navbar{
+height: 500px;
+ background-image: url("https://i.pinimg.com/1200x/76/a1/ee/76a1eece4adfd4da26739cd28078ff9c.jpg");
+ background-position: center;
+ background-size: cover;
+background-repeat: no-repeat;
+ display:flex;
+ justify-content: space-around;
+ background-size: 100% 100%;
+}
+.nav-anchor a{  
+    width: 100%; 
+    padding-right: 25px; 
+ text-decoration: none;
+ color: black;
+  font-family: 'Roboto', sans-serif;
+}
+.logo{
+ font-size: 28px;
+ font-weight: 900;
+}
+
+.nav-icon i{
+    
+    padding-top: 15px;
+padding-right: 25px;
+}
+@media screen and (max-width: 768px) {
+    .navbar {
+        height: 250px; 
+        justify-content: space-between; 
+        padding: 0 15px;
+       
+    }
+    .logo {
+        font-size: 18px;
+    }
+
+    .nav-anchor {
+        display: flex; 
+    }
+
+    .nav-anchor a {
+        font-size: 10px; 
+        padding-right: 8px; 
+    }
+
+    .nav-icon i {
+        font-size: 14px; 
+        padding-right: 10px;
+        padding-top: 0;
+    }
+}
+@media screen and (max-width: 480px) {
+    .nav-anchor a {
+        font-size: 9px;
+        padding-right: 5px;
+    }
+    .logo {
+        font-size: 16px;
+    }
+}
+
+.box1{
+display: flex;
+justify-content: space-around;
+}
+.box2{
+
+margin-top: 80px;
+ height: 300px;
+ width: 300px;
+ background-image: url("./assets/image2.jpg");
+ background-position: center;
+ background-size: cover;
+}
+.box3{
+    margin-top: 80px;
+ height: 300px;
+ width: 300px;
+ background-image: url("./assets/image3.jpg");
+ background-position: center;
+ background-size: cover;
+}
+.box4{
+    margin-top: 80px;
+ height: 300px;
+ width: 300px;
+ background-image: url("./assets/image4.jpg");
+ background-position: center;
+ background-size: cover;
+}
+.box5{
+    margin-top: 80px;
+ height: 300px;
+ width: 300px;
+ background-image: url("./assets/image5.jpg");
+ background-position: center;
+ background-size: cover;
+}
+.box6{
+    display: flex;
+justify-content: space-around;
+}
+.box7{
+     margin-top: 80px;
+ height: 300px;
+ width: 300px;
+ background-image: url("./assets/image6.jpg");
+ background-position: center;
+ background-size: cover;
+}
+.box8{
+     margin-top: 80px;
+ height: 300px;
+ width: 300px;
+ background-image: url("./assets/image7.jpg");
+ background-position: center;
+ background-size: cover;
+}
+.box9{
+     margin-top: 80px;
+ height: 300px;
+ width: 300px;
+ background-image: url("./assets/image8.jpg");
+ background-position: center;
+ background-size: cover;
+}
+.box10{
+     margin-top: 80px;
+ height: 300px;
+ width: 300px;
+ background-image: url("./assets/image9.jpg");
+ background-position: center;
+ background-size: cover;
+}
+.box11{
+    display: flex;
+justify-content: space-around;
+}
+.box12{
+      margin-top: 80px;
+ height: 300px;
+ width: 300px;
+ background-image: url("./assets/image10.jpg");
+ background-position: center;
+ background-size: cover;
+}
+.box13{
+      margin-top: 80px;
+ height: 300px;
+ width: 300px;
+ background-image: url("./assets/image11.jpg");
+ background-position: center;
+ background-size: cover;
+}
+.box14{
+      margin-top: 80px;
+ height: 300px;
+ width: 300px;
+ background-image: url("./assets/image14.jpg");
+ background-position: center;
+ background-size: cover;
+}
+.box15{
+      margin-top: 80px;
+ height: 300px;
+ width: 300px;
+ background-image: url("./assets/image13.jpg");
+ background-position: center;
+ background-size: cover;
+}
+.box1, .box6, .box11 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+}
+.main-footer {
+    margin-top: 50px;
+    background-color: #111417; 
+    color: #ffffff;
+    padding: 40px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer-links a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 25px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.footer-links a:hover {
+    color: #888;
+}
+
+.footer-logo h1 {
+    font-family: 'Brush Script MT', cursive; 
+    font-size: 32px;
+    letter-spacing: 2px;
+}
+
+.footer-copyright p {
+    font-size: 12px;
+    color: #888;
+}
+
+
+@media screen and (max-width: 992px) {
+    .main-footer {
+        flex-direction: column; 
+        text-align: center;
+        gap: 20px;
+    }
+
+    .footer-links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footer-links a {
+        margin: 5px 15px; 
+    }
+
+    .footer-copyright {
+        order: 3; 
+    }
+}
+@media screen and (max-width: 480px) {
+    .footer-logo h1 {
+        font-size: 24px;
+    }
+    
+    .footer-links a {
+        font-size: 12px;
+    }
+}
